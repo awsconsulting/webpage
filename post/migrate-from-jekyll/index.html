@@ -11,30 +11,30 @@
   <meta property = 'og:type' content = 'article' />
   <meta property = 'og:title' content = 'Migrate to Hugo from Jekyll' />
   <meta property = 'og:description' content = 'Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static …'>
-  <meta property = 'og:url' content = 'https://example.com/post/migrate-from-jekyll/' />
-  <meta property = 'og:image' content = 'https://example.com/images/speakers.jpg'/>
+  <meta property = 'og:url' content = 'https://awsconsulting.github.io/webpage/post/migrate-from-jekyll/' />
+  <meta property = 'og:image' content = 'https://awsconsulting.github.io/webpage/images/speakers.jpg'/>
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href = 'https://example.com/images/icons/apple-touch-icon.png'>
-  <link rel="icon" type="image/png" sizes="32x32" href = 'https://example.com/images/icons/favicon-32x32.png'>
-  <link rel="icon" type="image/png" sizes="16x16" href= 'https://example.com/images/icons/favicon-16x16.png'>
-  <link rel='canonical' href="https://example.com/post/migrate-from-jekyll/">
-  <link rel = 'stylesheet' href = 'https://example.com/main.css' integrity = ''>
+  <link rel="apple-touch-icon" sizes="180x180" href = 'https://awsconsulting.github.io/webpage/images/icons/apple-touch-icon.png'>
+  <link rel="icon" type="image/png" sizes="32x32" href = 'https://awsconsulting.github.io/webpage/images/icons/favicon-32x32.png'>
+  <link rel="icon" type="image/png" sizes="16x16" href= 'https://awsconsulting.github.io/webpage/images/icons/favicon-16x16.png'>
+  <link rel='canonical' href="https://awsconsulting.github.io/webpage/post/migrate-from-jekyll/">
+  <link rel = 'stylesheet' href = 'https://awsconsulting.github.io/webpage/main.css' integrity = ''>
 </head>
 
   <body>
     <div class = 'nav-drop'>
   <div class = 'nav-body'>
   
-    <a href = 'https://example.com//about/'>About</a>
+    <a href = 'https://awsconsulting.github.io/webpage//about/'>About</a>
   
-    <a href = 'https://example.com//'>Blog</a>
+    <a href = 'https://awsconsulting.github.io/webpage//'>Blog</a>
   
-    <a href = 'https://example.com//categories/development/'>Category A</a>
+    <a href = 'https://awsconsulting.github.io/webpage//categories/development/'>Category A</a>
   
-    <a href = 'https://example.com//categories/golang/'>Category B</a>
+    <a href = 'https://awsconsulting.github.io/webpage//categories/golang/'>Category B</a>
   
-    <a href = 'https://example.com//tags/go/'>Tag B</a>
+    <a href = 'https://awsconsulting.github.io/webpage//tags/go/'>Tag B</a>
   
     <div class = 'nav-close'></div>
   </div>
@@ -42,14 +42,14 @@
 
     <header class = 'nav' >
   <nav class = 'nav-menu'>
-    <a href='https://example.com/' class = 'nav-brand'>Hugo Themes</a>
+    <a href='https://awsconsulting.github.io/webpage/' class = 'nav-brand'>Hugo Themes</a>
     <div class = 'nav-bar'>&#9776;</div>
   </nav>
 </header>
 
     <main>
       
-<section class = 'post_header' style = 'background-image:url(https://example.com/images/speakers.jpg);'>
+<section class = 'post_header' style = 'background-image:url(https://awsconsulting.github.io/webpage/images/speakers.jpg);'>
   <h1 class='post_title' itemprop='name headline'>Migrate to Hugo from Jekyll</h1>
   
   
@@ -78,7 +78,7 @@ With Jekyll, something that looked like</p>
 
 <h2 id="create-your-hugo-configuration-file">Create your Hugo configuration file</h2>
 
-<p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="https://example.com/overview/configuration/">Hugo configuration documentation</a> for details.</p>
+<p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="https://awsconsulting.github.io/webpage/overview/configuration/">Hugo configuration documentation</a> for details.</p>
 
 <h2 id="set-your-configuration-publish-folder-to-site">Set your configuration publish folder to <code>_site</code></h2>
 
@@ -100,13 +100,13 @@ git submodule add -b gh-pages git@github.com:your-username/your-repo.git public<
 
 <h2 id="convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates</h2>
 
-<p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="https://example.com/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
+<p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="https://awsconsulting.github.io/webpage/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
 
 <p>As a single reference data point, converting my templates for <a href="http://heyitsalex.net/">heyitsalex.net</a> took me no more than a few hours.</p>
 
 <h2 id="convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes</h2>
 
-<p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/">plugins</a>; Hugo has <a href="https://example.com/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
+<p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/">plugins</a>; Hugo has <a href="https://awsconsulting.github.io/webpage/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
 
 <h3 id="implementation">Implementation</h3>
 
@@ -214,12 +214,12 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)</pre></div>
     <ul class='flex post_aside'>
       
        <li class = 'duo post_item'>
-  <a class = 'show' href='https://example.com/post/creating-a-new-theme/' title = 'Creating a New Theme' style = 'background-image: url(https://example.com/images/artist.jpg);'>
+  <a class = 'show' href='https://awsconsulting.github.io/webpage/post/creating-a-new-theme/' title = 'Creating a New Theme' style = 'background-image: url(https://awsconsulting.github.io/webpage/images/artist.jpg);'>
   </a>
   <div class = 'excerpt'>
     
     <h3 class = 'post_link'>
-      <a href='https://example.com/post/creating-a-new-theme/'>Creating a New Theme</a>
+      <a href='https://awsconsulting.github.io/webpage/post/creating-a-new-theme/'>Creating a New Theme</a>
     </h3>
     <p class = 'pale'>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume …</p>
   </div>
@@ -227,12 +227,12 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)</pre></div>
 
       
        <li class = 'duo post_item'>
-  <a class = 'show' href='https://example.com/about/' title = 'About Hugo' style = 'background-image: url(https://example.com/images/read.jpg);'>
+  <a class = 'show' href='https://awsconsulting.github.io/webpage/about/' title = 'About Hugo' style = 'background-image: url(https://awsconsulting.github.io/webpage/images/read.jpg);'>
   </a>
   <div class = 'excerpt'>
     
     <h3 class = 'post_link'>
-      <a href='https://example.com/about/'>About Hugo</a>
+      <a href='https://awsconsulting.github.io/webpage/about/'>About Hugo</a>
     </h3>
     <p class = 'pale'>Hugo is the world’s fastest framework for building websites. It is written in Go.
 It makes …</p>
@@ -243,8 +243,8 @@ It makes …</p>
     </ul>
   </aside>
 </div>
-<script src = 'https://example.com/js/autosize.min.js'></script>
-<script src = 'https://example.com/js/timeago.js'></script>
+<script src = 'https://awsconsulting.github.io/webpage/js/autosize.min.js'></script>
+<script src = 'https://awsconsulting.github.io/webpage/js/timeago.js'></script>
 
     </main>
     <footer class = 'footer'>
@@ -254,7 +254,7 @@ It makes …</p>
   </div>
 </footer>
 <script src = 'https://code.jquery.com/jquery-3.1.0.min.js'   integrity='sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s='   crossorigin='anonymous'></script>
-<script src = 'https://example.com/js/index.js'></script>
+<script src = 'https://awsconsulting.github.io/webpage/js/index.js'></script>
 
   </body>
 </html>
