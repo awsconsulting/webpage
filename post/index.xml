@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Hugo Themes</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 25 Jun 2019 03:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2019 03:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://awsconsulting.github.io/webpage/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fede</title>
+      <link>https://awsconsulting.github.io/webpage/post/fede/</link>
+      <pubDate>Wed, 26 Jun 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://awsconsulting.github.io/webpage/post/fede/</guid>
+      <description>Este es un post sobre fede la al ala l</description>
+    </item>
+    
+    <item>
+      <title>otro post</title>
+      <link>https://awsconsulting.github.io/webpage/post/otro-post/</link>
+      <pubDate>Wed, 26 Jun 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://awsconsulting.github.io/webpage/post/otro-post/</guid>
+      <description>ESte es post de forestry</description>
+    </item>
     
     <item>
       <title>dani</title>
